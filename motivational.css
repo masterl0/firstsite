@@ -1,0 +1,57 @@
+html{
+    background-color:#c3a23c;
+}
+.value1{
+   width: 50%;
+    margin-left: 25% ;
+    background-color: black;
+    padding: 20%;
+    
+}
+.image{
+    width: 50%;
+    border:5px solid #5a572c;
+    margin-left: 25%;
+}
+.head{
+    background-color: rgb(251, 192, 114);
+    color: #c69325;
+    border: solid #5a572c;
+    border-width: 10px 5px;
+    text-align: center;
+    padding: 10px 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-family: 'libre baskerville';
+    animation-name: changecolor;
+    animation-duration: 10s;
+    animation-iteration-count: 4;
+    position: relative;
+}
+
+
+    
+a{
+    background-color: rgb(251, 192, 114);
+    color: #c69325;
+    border: dashed #5a572c;
+    border-radius: 20px;
+    border-width: 5px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-decoration: dashed;
+    font-family: 'dancing script';
+    font-weight: 700;
+    font-size: xx-large;
+}
+@keyframes changecolor{ 
+ 0%   {background-color:red; left:0px; top:0px;}
+5%  {background-color:yellow; left:200px; top:0px;}
+10%  {background-color:blue; left:200px; top:200px;}
+15%  {background-color:green; left:0px; top:200px;}
+20% {background-color:red; left:0px; top:0px;}
+}
+
